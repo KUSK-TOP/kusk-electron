@@ -1,0 +1,65 @@
+.main {
+  border: 1px solid $border-color;
+  margin-bottom: 30px;
+}
+
+.titleBar {
+  background: $background-color;
+  border-bottom: 1px solid $border-color;
+  display: flex;
+  align-items: center;
+  padding: 16px 25px;
+
+  code {
+    display: inline-block;
+    font-size: $font-size-code;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    width: 200px;
+    padding: 0 6px;
+    background: $background-emphasis-color;
+    border: 1px solid transparentize($border-color, 0.5);
+    line-height: 1.4;
+  }
+}
+
+.title {
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+
+  label {
+    color: $text-strong-color;
+    font-size: $font-size-chrome;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0 8px 0 0;
+  }
+  img{
+    width: 20px;
+    margin-left: $gutter-size/2;
+    margin-bottom: 2px;
+  }
+}
+
+.timestamp {
+  position: absolute;
+  left: 59%;
+}
+
+.confirmation {
+  margin-left: $gutter-size;
+}
+
+
+.viewLink {
+  margin: -15px 0;
+  padding: 15px;
+  position: relative;
+
+  background: url('images/chevron-green.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 5px 9px;
+}

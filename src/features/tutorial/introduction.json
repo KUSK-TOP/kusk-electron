@@ -1,0 +1,70 @@
+{
+  "/transactions": {
+    "component": "TutorialInfo",
+    "title": "transaction",
+    "image": "transaction"
+  },
+  "/keys": {
+    "component": "TutorialInfo",
+    "title": "key",
+    "image": "key"
+  },
+  "/accounts": {
+    "component": "TutorialInfo",
+    "title": "account",
+    "image": "account"
+  },
+  "/assets": {
+    "component": "TutorialInfo",
+    "title": "asset",
+    "image": "asset"
+  },
+  "/balances": {
+    "component": "TutorialInfo",
+    "title": "balance",
+    "image": "balance"
+  },
+  "/core": {
+    "component": "TutorialInfo",
+    "title": "coreStatus"
+  },
+  "/access-control": {
+    "component": "TutorialInfo",
+    "title": "accessControl",
+    "image": "network_access_token"
+  },
+  "/unspents":{
+    "component": "TutorialInfo",
+    "title": "unspent",
+    "image": "unspent"
+  },
+  "/backup": {
+    "component": "TutorialInfo",
+    "title": "backupRestore",
+    "image": "client_access_token"
+  },
+  "/transactions/create":{
+    "component": "TutorialForm",
+    "title": "newTx"
+  },
+  "/accounts/create":{
+    "component": "TutorialForm",
+    "title": "newAccount"
+  },
+  "/assets/create":{
+    "component": "TutorialForm",
+    "title": "newAsset"
+  },
+  "/keys/create":{
+    "component": "TutorialForm",
+    "title": "newKey"
+  },
+  "/keys/:id/reset-password":{
+    "component": "TutorialForm",
+    "title": "resetPassword"
+  },
+  "/access-control/create-token": {
+    "component": "TutorialForm",
+    "title": "newToken"
+  }
+}

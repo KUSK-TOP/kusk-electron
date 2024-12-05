@@ -1,0 +1,62 @@
+.main {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+}
+.backdrop {
+  background: transparentize(black, 0.2);
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  background: $background-color;
+  padding: 30px;
+  position: absolute;
+  top: 10%;
+  left: calc(50% - 250px);
+  width: 500px;
+  max-height: 80%;
+  overflow: auto;
+
+  pre {
+    white-space: pre-wrap;
+    background: $background-content-color;
+    padding: 8px 12px;
+    color: $text-color;
+    line-height: 1.4;
+  }
+}
+
+.wide {
+  left: calc(50% - 425px);
+  width: 850px;
+}
+
+.cancel {
+  color: $text-color;
+}
+
+.box {
+  background: $background-color;
+  position: absolute;
+  top: 10%;
+  height: 80%;
+}
+
+.title {
+  height: 55px;
+  padding: $gutter-size/2 $gutter-size;
+  border-bottom: 1px solid $border-color;
+  font-size: $font-size-section-title;
+  color: $text-strong-color;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

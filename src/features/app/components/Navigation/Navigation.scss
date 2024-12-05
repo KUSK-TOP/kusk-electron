@@ -1,0 +1,102 @@
+.border {
+  padding-top: $gutter-size;
+  border-top: 1px solid $border-inverse-color;
+  margin-top: $gutter-size;
+}
+
+.main {
+  a {
+    display: block;
+    padding: 1px 0;
+    color: $highlight-inverse-color;
+    font-size: $font-size-nav;
+  }
+
+  .active,
+  .active:hover,
+  .active:focus {
+    color: $highlight-default;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    color: lighten($highlight-inverse-color, 15%);
+  }
+}
+
+.langBtn {
+  width: 80px !important;
+  height: 30px;
+}
+
+.smallFont {
+  font-size: 12px;
+  & > a {
+    font-size: 12px;
+  }
+}
+
+.navigation {
+  padding: 0;
+  list-style-type: none;
+  margin-top: $gutter-size/2;
+  margin-bottom: 0;
+  padding: 0 $gutter-size;
+}
+
+.navigationTitle {
+  color: $highlight-inverse-color;
+  //font-size: $font-size-caps;
+  text-transform: uppercase;
+  padding: 3px 0;
+  font-size: $font-size-chrome;
+
+  transform:scale(0.916);
+  transform-origin-x: 0%;
+
+  -ms-transform:scale(0.916);
+  -ms-transform-origin-x: 0%;
+
+  -moz-transform:scale(0.916);
+  -moz-transform-origin-x: 0%;
+
+  -o-transform:scale(0.916);
+  -o-transform-origin-x: 0%;
+
+  -webkit-transform: scale(0.916);
+  -webkit-transform-origin-x: 0%;
+}
+
+.activeIcon {
+  display: none;
+}
+
+.active .activeIcon {
+  display: inline;
+}
+
+.active .icon {
+  display: none;
+}
+
+.iconWrapper {
+  img {
+    width: 28px;
+    height: 28px;
+    margin-top: -2px;
+  }
+}
+
+.warningIcon {
+  height: 10px;
+  padding-right: 5px;
+}
+
+.updateWarning{
+  background-color:  transparentize($background-content-color, 0.9);
+  padding: 10px $gutter-size/4;
+  color: white;
+  margin: $gutter-size/2 $gutter-size 0px;
+  border-radius: 3px;
+}

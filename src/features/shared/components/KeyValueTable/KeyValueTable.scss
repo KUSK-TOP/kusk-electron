@@ -1,0 +1,79 @@
+.table {
+  background: $background-color;
+  table-layout: fixed;
+  width: 100%;
+
+  td {
+    border-bottom: 1px solid $border-color;
+    vertical-align: top;
+    padding: 13px $gutter-size;
+    line-height: 15px;
+  }
+
+  a .pre {
+    color: $highlight-default;
+  }
+
+  tr:first-child td {
+    padding-top: 20px;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+    padding-bottom: 20px;
+  }
+}
+
+.edit {
+  float: right;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-base;
+}
+
+.detail {
+  padding: 0px;
+  margin: 0px;
+  line-height: 15px;
+}
+
+.pencil {
+  padding-right: 5px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.label {
+  background: $background-color;
+  border-right: 1px solid $border-color;
+  color: $text-strong-color;
+  font-weight: 600;
+  width: 200px;
+  font-size: $font-size-base;
+  font-family: Nitti Grotesk;
+  text-align: right;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.value, .pre {
+  font-size: $font-size-code;
+  color: $text-table-value-color;
+}
+
+.value {
+  word-wrap: break-word;
+  font-family: Nitti;
+}
+
+.pre {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+
+  border: none;
+  line-height: 1.4;
+}

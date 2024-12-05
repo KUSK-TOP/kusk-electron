@@ -1,0 +1,9 @@
+node_modules
+kuskd
+npm-debug.log
+.env
+public
+desktop
+errorShots
+.idea
+.DS_Store

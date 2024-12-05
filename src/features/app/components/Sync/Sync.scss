@@ -1,0 +1,23 @@
+.main {
+  padding: $gutter-size;
+  border-top: 1px solid $border-inverse-color;
+  margin-top: $gutter-size;
+}
+
+.testnetError {
+  color: $brand-danger;
+}
+
+.testnetReset {
+  color: $brand-warning;
+}
+
+.blockHightlight {
+  color: $navbar-default-link-color;
+}
+
+.progressBar{
+  margin-top: 6px;
+  height: 5px;
+  border-radius: 0;
+}
